@@ -1,12 +1,8 @@
 import React from "react";
-import Github from "./components/Github";
+import Github2 from "./components/Github2";
 
 const App = () => {
-  return (
-    <>
-      <Github />
-    </>
-  );
+  return <Github2 />;
 };
 
 export default App;
