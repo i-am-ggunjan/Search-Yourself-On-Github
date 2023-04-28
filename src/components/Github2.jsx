@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchData } from "../features/github/GithubSlice";
+import { fetchData } from "../features/github/githubSlice";
 
 const Github2 = () => {
   let [searchuser, setSearchuser] = useState("i-am-ggunjan");
